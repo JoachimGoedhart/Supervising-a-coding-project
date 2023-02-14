@@ -36,7 +36,8 @@ This collection of Python jupyter notebooks will be another great resource: [htt
 
 ## Issues we run into:
 
-How to start with Python? Well the first hurdle is to install Python. This online book is a great starting point: [https://jni.github.io/using-python-for-science/intro-to-environments.html](https://jni.github.io/using-python-for-science/intro-to-environments.html)
+How to start with Python? Well the first hurdle is to install Python. This online book chapter recognizesd this point and offers some background: [https://jni.github.io/using-python-for-science/intro-to-environments.html](https://jni.github.io/using-python-for-science/intro-to-environments.html)
+
 I only installed Python once (maybe twice), so I tried a couple of things and then it worked. So this procedure was poorly documented. What worked when this was done together with the student (and maybe I missed some steps) for installation on a Macbook:
 
 - Go to the miniconda webiste: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
