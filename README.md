@@ -4,7 +4,7 @@ Lessons learned
 
 ## Intro
 
-This repository is meant to keep track of lessons learned while supervising a MsC on a coding project. This is the first time that I'm resposible for the supervision of a project in which coding is the main activity (before it was mainly wetlab reasearch albeit with a good chunk of bioimage data analysis). The projects goals are vaguely determined. What we do know is that we want to:
+This repository is meant to keep track of lessons learned while supervising a MsC student on a coding project. This is the first time that I'm resposible for the supervision of a project in which coding is the main activity (before it was mainly wetlab reasearch albeit with a good chunk of bioimage data analysis). The projects goals are vaguely determined. What we do know is that we want to:
 
 - build image analysis pipelines
 - use Python and Jupyter Notebooks as the main language[^1]
