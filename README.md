@@ -11,7 +11,8 @@ This repository is meant to keep track of lessons learned while supervising a Ms
 - write code that is useful for the analysis of **our** (fluorescence imaging) data
 - write code that (in the end) can be used/run by users with little (no) coding experience
 
-[^1]: Since the student has some background in coding in Python, and I started to code in Python roughly 6 months ago, we decided to use Python as the programming language. 
+[^1]: Since the student has some background in coding in Python, and I started to code in Python roughly 6 months ago, we decided to use Python as the programming language. In the far future this seems a good choice as we may integrate our work with the Napari nD image viewer.
+
 
 
 ## Start material
@@ -31,4 +32,20 @@ This collection of Python jupyter notebooks will be another great resource: [htt
 
 - Ten simple rules for quick and dirty scientific programming: [https://doi.org/10.1371/journal.pcbi.1008549](https://doi.org/10.1371/journal.pcbi.1008549)
 - Ten Simple Rules for Taking Advantage of Git and GitHub: [https://doi.org/10.1371/journal.pcbi.1004947](https://doi.org/10.1371/journal.pcbi.1004947)
+
+
+## Issues we run into:
+
+How to start with Python? Well the first hurdle is to install Python. I only did this once, so I tried a couple of things and then it worked. So this procedure was poorly documented. What worked when this was done together with the student (and maybe I missed some steps) for installation on a Macbook:
+
+- Go to the miniconda webiste: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+- Download and isntall: `Miniconda3 macOS Intel x86 64-bit pkg`
+- Open the Terminal
+- Test the installation and run `conda env list`. If this returns conda environments, the installation was succesfull!
+
+
+
+
+
+
 
