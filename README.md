@@ -28,11 +28,16 @@ Some background reading material:
 This collection of Python jupyter notebooks will be another great resource: [https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
 
 
+
 ## I'll save this for the future reading list:
 
 - Ten simple rules for quick and dirty scientific programming: [https://doi.org/10.1371/journal.pcbi.1008549](https://doi.org/10.1371/journal.pcbi.1008549)
 - Ten Simple Rules for Taking Advantage of Git and GitHub: [https://doi.org/10.1371/journal.pcbi.1004947](https://doi.org/10.1371/journal.pcbi.1004947)
 
+
+## Ideas
+
+Pair programming [https://martinfowler.com/articles/on-pair-programming.html](https://martinfowler.com/articles/on-pair-programming.html)
 
 ## Issues we run into:
 
@@ -44,6 +49,8 @@ I only installed Python once (maybe twice), so I tried a couple of things and th
 - Download and isntall: `Miniconda3 macOS Intel x86 64-bit pkg`
 - Open the Terminal
 - Test the installation and run `conda env list`. If this returns conda environments, the installation was succesfull!
+
+> The experts advise to install mamba, see e.g. [https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/](https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/) and [https://twitter.com/ZacSwider/status/1625834234874142724](https://twitter.com/ZacSwider/status/1625834234874142724)
 
 
 
