@@ -46,11 +46,28 @@ How to start with Python? Well the first hurdle is to install Python. This onlin
 I only installed Python once (maybe twice), so I tried a couple of things and then it worked. So this procedure was poorly documented. What worked when this was done together with the student (and maybe I missed some steps) for installation on a Macbook:
 
 - Go to the miniconda webiste: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
-- Download and isntall: `Miniconda3 macOS Intel x86 64-bit pkg`
+- Download and install: `Miniconda3 macOS Intel x86 64-bit pkg`
 - Open the Terminal
 - Test the installation and run `conda env list`. If this returns conda environments, the installation was succesfull!
 
 > The experts advise to install mamba, see e.g. [https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/](https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/) and [https://twitter.com/ZacSwider/status/1625834234874142724](https://twitter.com/ZacSwider/status/1625834234874142724)
+
+## First steps
+
+We started out discussing the 'workflow' detailing the steps (on paper) that were required to build a pipeline. We decided which steps were essential and which were 'nice to have'. I made a selection of what would be __relatively__ easy and what would be more complicated, so we could first focus on the simpler parts.
+Next, we prepared a 'paired programming' setup, with a laptop to which we connected an external screen (which copies the screen of the laptop).
+
+[!Picture of Paired Porgramming setup](setup.png)
+
+The student operates the laptop and the supervisor (or 'navigator') looks at the external screen. We started with a blank Jupyter notebook and first wrote titles for the different sections with the different steps (load packages, load data, register data, find ROIs, quantify, save output).
+
+The loading of packages is a pretty straightforward step that the student mastered, so that's nice to start with. Loading of data was also treated as a topic in a course, so that went pretty smoothly. We spend some time on different ways to check the loaded image data (dimensions, type, and also plotting it).
+
+Since the nexty steps will be more complicated we visited the [scikit-image site](https://scikit-image.org/docs/stable/auto_examples/), which has very nice examples. We tried some of the code snippets, for instance the [mean filters](https://scikit-image.org/docs/stable/auto_examples/filters/plot_rank_mean.html). The next step we wanted to work on was segmentation and quantification of ROIs and there's much information in the [Python BioImage Analysis Tutorial](https://github.com/WhoIsJack/python-bioimage-analysis-tutorial), so we started that. We did the first part (up to '
+Preprocessing') in paired programming mode and that went well. The student was typing the code and this mode brought confidence. I could also encourage to try different things (like adding outcommenting code with # for troubleshooting). The disadvantage is that concentration on the topic/material was a bit less than when done at your own pace. We will see what happens when the students continuous in unpaired mode.
+
+
+
 
 
 
