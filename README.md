@@ -59,7 +59,7 @@ I only installed Python once (maybe twice), so I tried a couple of things and th
 
 ## First steps
 
-We started out discussing the 'workflow' detailing the steps (on paper) that were required to build a pipeline. We decided which steps were essential and which were 'nice to have'. I made a selection of what would be __relatively__ easy and what would be more complicated, so we could first focus on the simpler parts.
+We started out discussing the 'workflow' detailing the steps (on paper) that were required to build a pipeline. We decided which steps were essential and which were 'nice to have'. I made a selection of what would be _relatively_ easy and what would be more complicated, so we could first focus on the simpler parts.
 Next, we prepared a 'paired programming' setup, with a laptop to which we connected an external screen (which copies the screen of the laptop). It is probably more appropriate to call it supervised driving, where the student controls the wheel and the supervisor helps to solve issues (by hints, avoiding straight answers).
 
 ![Picture of Paired Porgramming setup](paired-programming-setup.jpg)
