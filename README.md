@@ -27,6 +27,15 @@ Some background reading material:
 
 This collection of Python jupyter notebooks will be another great resource: [https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
 
+Some other nice tutorials/teaching materials as jupyter notebooks:
+
+- [Python BioImage Analysis Tutorial](https://github.com/WhoIsJack/python-bioimage-analysis-tutorial)
+- [NEUBIAS Academy @HOME: Interactive Bioimage Analysis with Python and Jupyter](https://github.com/guiwitz/neubias_academy_biapy)
+- [Quick demo on image analysis using Python](https://github.com/CamachoDejay/teaching-bioimage-analysis-python/tree/main/quick_demo_220503)
+
+
+
+
 
 
 ## I'll save this for the future reading list:
@@ -55,19 +64,16 @@ I only installed Python once (maybe twice), so I tried a couple of things and th
 ## First steps
 
 We started out discussing the 'workflow' detailing the steps (on paper) that were required to build a pipeline. We decided which steps were essential and which were 'nice to have'. I made a selection of what would be __relatively__ easy and what would be more complicated, so we could first focus on the simpler parts.
-Next, we prepared a 'paired programming' setup, with a laptop to which we connected an external screen (which copies the screen of the laptop).
+Next, we prepared a 'paired programming' setup, with a laptop to which we connected an external screen (which copies the screen of the laptop). It is probably more appropriate to call it supervised driving, where the student controls the wheel and the supervisor helps to solve issues (by hints, avoiding straight answers).
 
 ![Picture of Paired Porgramming setup](paired-programming-setup.jpg)
 
-The student operates the laptop and the supervisor (or 'navigator') looks at the external screen. We started with a blank Jupyter notebook and first wrote titles for the different sections with the different steps (load packages, load data, register data, find ROIs, quantify, save output).
+The student operates the laptop and the supervisor (or 'navigator') looks at the external screen. We started with a blank Jupyter notebook and we (=student) first wrote titles for the different sections with the different steps (load packages, load data, register data, find ROIs, quantify, save output).
 
-The loading of packages is a pretty straightforward step that the student mastered, so that's nice to start with. Loading of data was also treated as a topic in a course, so that went pretty smoothly. We spend some time on different ways to check the loaded image data (dimensions, type, and also plotting it).
+The loading of packages is a pretty straightforward step that the student knew how to do, so that's nice to start with. Loading of data was also treated as a topic in a course, so that went pretty smoothly. We spend some time on different ways to check the loaded image data (dimensions, type, and also plotting it).
 
 Since the nexty steps will be more complicated we visited the [scikit-image site](https://scikit-image.org/docs/stable/auto_examples/), which has very nice examples. We tried some of the code snippets, for instance the [mean filters](https://scikit-image.org/docs/stable/auto_examples/filters/plot_rank_mean.html). The next step we wanted to work on was segmentation and quantification of ROIs and there's much information in the [Python BioImage Analysis Tutorial](https://github.com/WhoIsJack/python-bioimage-analysis-tutorial), so we started that. We did the first part (up to '
 Preprocessing') in paired programming mode and that went well. The student was typing the code and this mode brought confidence. I could also encourage to try different things (like adding outcommenting code with # for troubleshooting). The disadvantage is that concentration on the topic/material was a bit less than when done at your own pace. We will see what happens when the students continuous in unpaired mode.
-
-
-
 
 
 
