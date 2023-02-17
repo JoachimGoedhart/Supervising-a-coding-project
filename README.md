@@ -57,7 +57,7 @@ I only installed Python once (maybe twice), so I tried a couple of things and th
 We started out discussing the 'workflow' detailing the steps (on paper) that were required to build a pipeline. We decided which steps were essential and which were 'nice to have'. I made a selection of what would be __relatively__ easy and what would be more complicated, so we could first focus on the simpler parts.
 Next, we prepared a 'paired programming' setup, with a laptop to which we connected an external screen (which copies the screen of the laptop).
 
-![Picture of Paired Porgramming setup](setup.png)
+![Picture of Paired Porgramming setup](paired-programming-setup.jpg)
 
 The student operates the laptop and the supervisor (or 'navigator') looks at the external screen. We started with a blank Jupyter notebook and first wrote titles for the different sections with the different steps (load packages, load data, register data, find ROIs, quantify, save output).
 
