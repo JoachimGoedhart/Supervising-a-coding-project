@@ -25,17 +25,13 @@ Some background reading material:
 - Ten simple rules for biologists learning to program: [https://doi.org/10.1371/journal.pcbi.1005871](https://doi.org/10.1371/journal.pcbi.1005871)
 - Ten simple rules for writing and sharing computational analyses in Jupyter Notebooks: [https://doi.org/10.1371/journal.pcbi.1007007](https://doi.org/10.1371/journal.pcbi.1007007)
 
-This collection of Python jupyter notebooks will be another great resource: [https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
+This collection of Python jupyter notebooks will be a great resource: [https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html)
 
-Some other nice tutorials/teaching materials as jupyter notebooks:
+Some nice tutorials/teaching materials as jupyter notebooks (the first in the list will be used for learning BioImage analsysis):
 
 - [Python BioImage Analysis Tutorial](https://github.com/WhoIsJack/python-bioimage-analysis-tutorial)
 - [NEUBIAS Academy @HOME: Interactive Bioimage Analysis with Python and Jupyter](https://github.com/guiwitz/neubias_academy_biapy)
 - [Quick demo on image analysis using Python](https://github.com/CamachoDejay/teaching-bioimage-analysis-python/tree/main/quick_demo_220503)
-
-
-
-
 
 
 ## I'll save this for the future reading list:
