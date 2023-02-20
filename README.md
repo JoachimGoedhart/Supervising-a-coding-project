@@ -71,6 +71,12 @@ The loading of packages is a pretty straightforward step that the student knew h
 Since the nexty steps will be more complicated we visited the [scikit-image site](https://scikit-image.org/docs/stable/auto_examples/), which has very nice examples. We tried some of the code snippets, for instance the [mean filters](https://scikit-image.org/docs/stable/auto_examples/filters/plot_rank_mean.html). The next step we wanted to work on was segmentation and quantification of ROIs and there's much information in the [Python BioImage Analysis Tutorial](https://github.com/WhoIsJack/python-bioimage-analysis-tutorial), so we decided to first do this tutorial. We did the first part (up to '
 Preprocessing') in paired programming (supervised driving) mode and that went well. The student was typing the code and this mode brought confidence. I could also encourage trying different things (like adding outcommenting code with # for troubleshooting). The disadvantage is that concentration on the topic/material was a bit less than when done individually. We agreed that the student would continue with the next section in unpaired (unsupoervised) mode.
 
+It turns out that this material is quite challenging. I helped up to the part where thresholding was treated. After the section "Manual Thresholding & Threshold Detection" the material becomes (for our purpose) less relevant. So I wanted to jump to 'labeling' and quantification. So I pointed the student to these resources (with the idea to try these steps on our own images):
+
+- Labeling objects:
+https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/09_connected_component_labeling.html
+- Feature extraction video: https://www.youtube.com/watch?v=dria4wCiaz0
+- Quantification of labeled objects: https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/quantitative_measurements.html
 
 
 
