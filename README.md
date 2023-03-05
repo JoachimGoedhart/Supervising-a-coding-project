@@ -57,6 +57,8 @@ I only installed Python once (maybe twice), so I tried a couple of things and th
 
 > The experts advise to install mamba, see e.g. [https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/](https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/) and [https://twitter.com/ZacSwider/status/1625834234874142724](https://twitter.com/ZacSwider/status/1625834234874142724)
 
+> A detailed resource on setting up and managing Python environments by Talley Lambert: [https://hackmd.io/@talley/SJB_lObBi] 
+
 ## First steps
 
 We started out discussing the 'workflow' detailing the steps (on paper) that were required to build a pipeline. We decided which steps were essential and which were 'nice to have'. I made a selection of what would be _relatively_ easy and what would be more complicated, so we could first focus on the simpler parts.
