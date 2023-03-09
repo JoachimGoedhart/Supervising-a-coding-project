@@ -70,7 +70,7 @@ The student operates the laptop and the supervisor (or 'navigator') looks at the
 
 The loading of packages is a pretty straightforward step that the student knew how to do, so that's nice to start with. Loading of data was also treated as a topic in a course, so that went pretty smoothly. We spend some time on different ways to check the loaded image data (dimensions, type, and also plotting it).
 
-Since the nexty steps will be more complicated we visited the [scikit-image site](https://scikit-image.org/docs/stable/auto_examples/), which has very nice examples. We tried some of the code snippets, for instance the [mean filters](https://scikit-image.org/docs/stable/auto_examples/filters/plot_rank_mean.html). The next step we wanted to work on was segmentation and quantification of ROIs and there's much information in the [Python BioImage Analysis Tutorial](https://github.com/WhoIsJack/python-bioimage-analysis-tutorial), so we decided to first do this tutorial. We did the first part (up to '
+Since the next steps will be more complicated we visited the [scikit-image site](https://scikit-image.org/docs/stable/auto_examples/), which has very nice examples. We tried some of the code snippets, for instance the [mean filters](https://scikit-image.org/docs/stable/auto_examples/filters/plot_rank_mean.html). The next step we wanted to work on was segmentation and quantification of ROIs and there's much information in the [Python BioImage Analysis Tutorial](https://github.com/WhoIsJack/python-bioimage-analysis-tutorial), so we decided to first do this tutorial. We did the first part (up to '
 Preprocessing') in paired programming (supervised driving) mode and that went well. The student was typing the code and this mode brought confidence. I could also encourage trying different things (like adding outcommenting code with # for troubleshooting). The disadvantage is that concentration on the topic/material was a bit less than when done individually. We agreed that the student would continue with the next section in unpaired (unsupoervised) mode.
 
 It turns out that this material is quite challenging. I helped up to the part where thresholding was treated. After the section "Manual Thresholding & Threshold Detection" the material becomes (for our purpose) less relevant. So I wanted to jump to 'labeling' and quantification. So I pointed the student to these resources (with the idea to try these steps on our own images):
@@ -79,6 +79,24 @@ It turns out that this material is quite challenging. I helped up to the part wh
 https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/20_image_segmentation/09_connected_component_labeling.html
 - Feature extraction video: https://www.youtube.com/watch?v=dria4wCiaz0
 - Quantification of labeled objects: https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/22_feature_extraction/quantitative_measurements.html
+
+
+-----------------
+
+## Second phase
+
+Since I was almost fully occupied with teaching a course, our communication was mainly through slack, for instance for smaller quedstions, but also sharing screenshots of the jupyter notebook of bugs or progress.
+
+It also turned out that some concepts were obvious to me, but unknown to the student. This reminded me of the 'Experts Awareness Gap' that I learned about in a Carpentries Instructor training: https://carpentries.github.io/instructor-training/04-expertise/index.html
+
+One such example was the composition of an RGB image from grayscale images. The automatic display of greyscale images in a false-color in Jupyter notebooks adds to the confusion. Anyway, in such case it is way more efficient to talk about this concept instead of digital communication. So that's what we did.
+
+
+
+
+
+
+
 
 
 
