@@ -91,6 +91,17 @@ It also turned out that some concepts were obvious to me, but unknown to the stu
 
 One such example was the composition of an RGB image from grayscale images. The automatic display of greyscale images in a false-color in Jupyter notebooks adds to the confusion. Anyway, in such case it is way more efficient to talk about this concept instead of digital communication. So that's what we did.
 
+The student was more-and-more independent, and was able to work rather independently on pieces of code. Still, in some cases it was not so obvious how to solve new challenges. One example is to convert the script from loading one file, to loading all files from a subdirectory. Again, in these cases it is much more efficient to sit together and discuss what's going on (this may also be due to my style of supervision, where I try to give just enough information for the student to get a step further - instead of giving a straight solution).
+
+---------------
+
+## Third phase
+
+We almost have a complete working pipeline and at this point we discussed it with a potential user. This is very nice for getting input (and also learn how the data is acquired) and also extremely motivating for the student.
+We also discussed how to 'provide' the code to the users in the best way. We decided to look into Google Colab. The first impresssion is that this is a fantastic way to neable the users to use and run the code. At this moment, the data is saved as CSV, without any plots. Google colab allows the use of R, which is great for us, as we have more experience with R for data visualization. So, the next step is to adapt the code to the Google colab platform.
+
+
+
 
 
 
