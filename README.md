@@ -100,16 +100,15 @@ The student was more-and-more independent, and was able to work rather independe
 We almost have a complete working pipeline and at this point we discussed it with a potential user. This is very nice for getting input (and also learn how the data is acquired) and also extremely motivating for the student.
 We also discussed how to 'provide' the code to the users in the best way. We decided to look into Google Colab. The first impresssion is that this is a fantastic way to neable the users to use and run the code. At this moment, the data is saved as CSV, without any plots. Google colab allows the use of R, which is great for us, as we have more experience with R for data visualization. So, the next step is to adapt the code to the Google colab platform.
 
-
 ---------------
 
 At some points we ran into the issue that specific packages couldn't be loaded into an environment. Re-installing the package sometimes helped, but then, another package couldn't be loaded. We traced it down to extra lines in the .zshrc file which is a config file for the zshell that we used. Deleting the file didn't help, and it even prevented conda to run at all.
 Removing (`rm -rf ~/.condarc ~/.conda ~/.continuum`, see also [this link](https://stackoverflow.com/questions/60131438/uninstall-miniconda-on-macos)) and re-installing conda fixed the issue.
 In hindsight, it would have been better/easier to fix the .zshrc file.
 
+---------------
 
-
-
+It turns out that the Google Colab environment is very well suited to deliver the code to novice users. We took great inspiration from the [Zerocost4DLMic notebooks](https://github.com/HenriquesLab/ZeroCostDL4Mic). The key challenge was to explain the user how to get the data in the right place, and minimize the number of steps.
 
 
 
