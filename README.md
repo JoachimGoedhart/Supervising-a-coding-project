@@ -110,7 +110,7 @@ In hindsight, it would have been better/easier to fix the .zshrc file.
 
 It turns out that the Google Colab environment is very well suited to deliver the code to novice users. We took great inspiration from the [Zerocost4DLMic notebooks](https://github.com/HenriquesLab/ZeroCostDL4Mic). The key challenge was to explain the user how to get the data in the right place, and minimize the number of steps.
 
-
+The most up-to-date version of he code is [available here](https://github.com/JoachimGoedhart/DotBlot-analysis).
 
 
 
